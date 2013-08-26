@@ -4,9 +4,9 @@ This add-on allows for the adding of files using Simon Georget's [Filemanager](h
 It has been tested with Statamic v1.6.2. 
 
 ## Screenshots
-![Filemanager Field in Grid](http://katrinkerber.com/assets/screenshot-ckeditor.png)
+![Filemanager Field in Grid](http://katrinkerber.com/assets/screenshot-filemanager-grid.png)
 
-![Filemanager Window](http://katrinkerber.com/assets/screenshot-filemanager-grid.png)
+![Filemanager Window](http://katrinkerber.com/assets/screenshot-filemanager.png)
 
 
 ## Installation

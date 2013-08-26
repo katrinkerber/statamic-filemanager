@@ -1,0 +1,35 @@
+.filemanager-container {
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #f4f4f0;
+    position: relative;
+    float: left;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.1);
+    padding: 0;
+    width: 100%;
+}
+.filemanager-container input {
+    width: 60%;
+    background-color: transparent;
+    margin: 10px;
+    border: 0;
+    -webkit-appearance: none; -webkit-border-radius: 0;
+}
+
+.filemanager-container img {
+    margin-right: 10px;
+}
+
+.filemanager-container .btn {
+    float: right;
+    margin: 15px;
+}
+@media only screen and (max-width: 480px) {
+    .filemanager-container input {
+        width: 100%;
+    }
+    .filemanager-container .btn {
+        margin: 0;
+    }
+}

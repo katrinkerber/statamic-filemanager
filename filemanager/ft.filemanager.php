@@ -3,7 +3,7 @@ class Fieldtype_filemanager extends Fieldtype {
 
   var $meta = array(
     'name'       => 'Filemanager for Statamic',
-    'version'    => '1.0',
+    'version'    => '1.1',
     'author'     => 'Katrin Kerber',
     'author_url' => 'http://katrinkerber.com'
   );
@@ -29,6 +29,8 @@ class Fieldtype_filemanager extends Fieldtype {
   }
 
   public function process() {
-    return trim($this->field_data);
+    $fullFileURL = $this->field_data;
+    $trimmedFileURL = parse_url($fullFileURL);
+    return $trimmedFileURL['path'];
   }
 }

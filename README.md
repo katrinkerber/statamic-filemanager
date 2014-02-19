@@ -1,5 +1,5 @@
 # Statamic Filemanager add-on
-This add-on allows for the adding of files using Simon Georget's [Filemanager](https://github.com/simogeo/Filemanager).
+This fieldtype add-on allows for the browsing and uploading of files using Simon Georget's [Filemanager](https://github.com/simogeo/Filemanager).
 
 It has been tested with Statamic v1.7.1. 
 
@@ -24,7 +24,7 @@ If you are using Statamic’s provided code in your `.htaccess` file, it will in
 
 With this the Filemanager won't work, as it blocks access to all html files. 
 
-*You need to remove this line to get Filemanager to work.*
+**You need to remove this line to get Filemanager to work.**
 
 I use the following block of code to protect system and template files:
 

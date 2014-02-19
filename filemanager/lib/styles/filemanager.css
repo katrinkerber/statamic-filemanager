@@ -173,7 +173,7 @@ button:focus {
 	top:0px;
 	width:215px;
 	height:32px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 /** Firefox hack */

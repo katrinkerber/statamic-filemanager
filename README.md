@@ -1,30 +1,30 @@
-# Filemanager add-on for Statamic
+# Statamic Filemanager add-on
 This add-on allows for the adding of files using Simon Georget's [Filemanager](https://github.com/simogeo/Filemanager).
 
-It has been tested with Statamic v1.6.2. 
+It has been tested with Statamic v1.7.1. 
 
 ## Screenshots
-![Filemanager Field in Grid](http://katrinkerber.com/assets/screenshot-filemanager-grid.png)
+![Filemanager Field in Grid](http://katrinkerber.com/assets/screenshot-filemanager-fields.png)
 
-![Filemanager Window](http://katrinkerber.com/assets/screenshot-filemanager.png)
+![Filemanager Window](http://katrinkerber.com/assets/screenshot-filemanage-window.png)
 
 
 ## Installation
 Upload the `filemanager` folder to your Statamic's `_add-ons` folder.
 
 ## Configuration
-By default Filemanager will use the `/assets/` folder to browse and upload images/files to.
+By default Filemanager will use the `/assets/` folder to browse and upload images and files to.
 
 If you need to change this, go to `_add-ons/filemanager/lib/scripts/filemanager.config.js` and edit the `fileRoot` value on **line 18**.
 
 #### Editing the .htaccess file
-If you are using Statamic’s provided code in your `.htaccess` file, which includes this line of code
+If you are using Statamic’s provided code in your `.htaccess` file, it will include this line of code:
 
     `Rewriterule ^(.*)?\.html$ - [F,L]`
 
-then the Filemanager won't work, as this blocks access to html files. 
+With this the Filemanager won't work, as it blocks access to all html files. 
 
-You need to remove this line to get Filemanager to work.
+*You need to remove this line to get Filemanager to work.*
 
 I use the following block of code to protect system and template files:
 
@@ -38,7 +38,6 @@ I use the following block of code to protect system and template files:
     RewriteRule ^(.*)?\.yml$ - [F,L]
     Rewriterule ^(.*)?\.yaml$ - [F,L]
     RewriteRule ^(.*/)?\.git+ - [F,L]
-
 
 ### Running in a subdirectory
 If you are running Statamic in a subdirectory, you need to change the `fileRoot` value. 

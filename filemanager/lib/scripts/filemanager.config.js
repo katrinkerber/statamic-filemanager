@@ -45,7 +45,8 @@
             "webm",
             "ogg",
             "mp3",
-            "wav"
+            "wav",
+            "zip"
         ]
     },
     "upload": {

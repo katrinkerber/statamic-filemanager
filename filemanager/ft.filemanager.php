@@ -3,7 +3,7 @@ class Fieldtype_filemanager extends Fieldtype {
 
   var $meta = array(
     'name'       => 'Filemanager for Statamic',
-    'version'    => '1.1',
+    'version'    => '1.2',
     'author'     => 'Katrin Kerber',
     'author_url' => 'http://katrinkerber.com'
   );

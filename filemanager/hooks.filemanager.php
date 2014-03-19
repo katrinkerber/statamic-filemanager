@@ -19,7 +19,7 @@ class Hooks_filemanager extends Hooks {
           {
               urlobj = obj;
               OpenServerBrowser(
-              '/_add-ons/filemanager/lib/index.html',
+              '".Config::getSiteRoot()."_add-ons/filemanager/lib/index.html',
               screen.width * 0.7,
               screen.height * 0.7 ) ;
           }

@@ -11,15 +11,15 @@ class Hooks_filemanager extends Hooks {
   public function control_panel__add_to_foot()
   {
       if (URL::getCurrent(false) == '/publish') {
+        $filebrowserPath = Config::getSiteRoot()."_add-ons/filemanager/lib/index.html";
         $html = "<script>
-          // See https://github.com/simogeo/Filemanager/wiki/How-to-use-the-filemanager-from-a-simple-textfield-%3F
           var urlobj;
 
           function BrowseServer(obj)
           {
               urlobj = obj;
               OpenServerBrowser(
-              '".Config::getSiteRoot()."_add-ons/filemanager/lib/index.html',
+              '$filebrowserPath',
               screen.width * 0.7,
               screen.height * 0.7 ) ;
           }
@@ -64,7 +64,7 @@ class Hooks_filemanager extends Hooks {
 
           });
          </script>";
-        
+
         return $html;
       }
   }

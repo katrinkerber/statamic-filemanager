@@ -16,7 +16,7 @@
         "dateFormat": "d M Y H:i",
         "serverRoot": true,
         "fileRoot": "assets/",
-        "relPath": false,
+        "relPath": "/assets/",
         "logger": false,
         "plugins": []
     },

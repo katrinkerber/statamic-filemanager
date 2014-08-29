@@ -4,9 +4,9 @@ This fieldtype add-on allows for the browsing and uploading of files using Simon
 It has been tested with Statamic v1.7.1.
 
 ## Screenshots
-![Filemanager Field in Grid](http://katrinkerber.com/assets/screenshot-filemanager-fields.png)
+![Filemanager Field in Grid](http://katrinkerber.com/uploads/screenshot-filemanager-field.png)
 
-![Filemanager Window](http://katrinkerber.com/assets/screenshot-filemanage-window.png)
+![Filemanager Window](http://katrinkerber.com/uploads/screenshot-filemanager-window.png)
 
 
 ## Installation
